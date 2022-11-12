@@ -1,0 +1,63 @@
+body{
+    background-image: url(../CLASEII/corazon.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pregunta{
+    text-align: center;
+    font-size: 5em;
+    color: black;
+}
+.video-perro{
+    margin: 0 auto; 
+    width: 400px;
+    display:block;
+}
+button:hover{
+    cursor: pointer;
+}
+h1{
+    color:rgb(12, 217, 231);
+    text-align: center;
+    font-size: 3em;
+}
+.img{
+    text-align: center;
+}
+img{
+    width: 50%;
+    height: 70%;
+}
+.modo{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 3em;
+}
+.modo_sexo{
+    height: 2000;
+    position: absolute;
+    display:none;
+    width: 100%;
+    background-color: red;
+    z-index: 1000;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+#btn_si{
+    background-color: brown;
+    border-color:brown;
+    color: azure;
+    font-size: 2em;
+    padding: 40px;
+    text-align: center;
+    border-radius: 4px;
+}
+#btn_no{
+    padding: 0;
+    width: 45px;
+    height: 45px;
+}
