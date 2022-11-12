@@ -11,7 +11,7 @@ btnNo. addEventListener("mouseenter", function(e){moverPosicionRamdon(e.target) 
 btnSi.addEventListener('click', function(e){
     alert('Sabia que dirias que SI, TE AMO ❤');
     divModoSexo.style.display= 'inline';
-    const cancion = new Audio('../video/img_modo_hot.mp3');
+    const cancion = new Audio('img_modo_hot.mp3')
     cancion.play();
     
 })
